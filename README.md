@@ -1,4 +1,6 @@
 # docker-lamp
+[![Build Status](https://travis-ci.org/sooch/docker-lamp.svg?branch=master)](https://travis-ci.org/sooch/docker-lamp)
+
 Lightweight LAMP environment on docker
 
 
