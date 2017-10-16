@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+before_script:
+  - docker-compose up -d
+  - cp .env.example .env
+
+after_script:
+  - docker-compose down
