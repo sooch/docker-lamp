@@ -4,8 +4,8 @@ services:
   - docker
 
 before_script:
-  - docker-compose up -d
   - cp .env.example .env
+  - docker-compose up -d
 
 after_script:
   - docker-compose down
