@@ -13,6 +13,6 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     command: mysqld
     ports:
-      - "3306:13306"
+      - "13306:13306"
     volumes:
       - "./data/mysql:/var/lib/mysql"
