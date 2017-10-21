@@ -19,7 +19,7 @@ before_install:
   - sudo apt-get -y install docker-ce
 
   - cp .env.example .env
-  - docker-compose up -d
+  - docker-compose build
 
-after_script:
-  - docker-compose down
+script:
+  # - docker-compose run mysql
