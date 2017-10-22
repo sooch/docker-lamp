@@ -21,7 +21,7 @@ before_install:
   - sudo apt-get -y install docker-ce
 
   - cp .env.example .env
-  - docker-compose build
+  - docker-compose up -d
 
 script:
-  - docker exec -it mysql mysql -u root -p'test'
+  - docker exec $(shell docker-compose ps -q mysql) mysql -u root -p'test'
