@@ -15,9 +15,8 @@ before_install:
   - chmod +x docker-compose
   - sudo mv docker-compose /usr/local/bin
 
-before_script:
+script:
   - cp .env.example .env
   - docker-compose up -d
-
-script:
-  - docker exec $(shell docker-compose ps -q mysql) mysql -u root -p'test'
+  - docker-compose ps
+  # - docker exec $(shell docker-compose ps -q mysql) mysql -u root -p'test'
