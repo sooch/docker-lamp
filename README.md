@@ -11,7 +11,7 @@ Based on [Alpine Linux](https://alpinelinux.org/) images.
 |:--|:--|:--|
 |Apache|[httpd:2.4.28-alpine](https://github.com/docker-library/httpd/blob/5b3b87b10907617b0d69af4308ae1dfa21ccf703/2.4/alpine/Dockerfile)|8000|
 |PHP|[php:7.1-fpm-alpine](https://github.com/docker-library/php/blob/0bb4068bd639ba98631bc2999e0d20cae583ec00/7.1/alpine3.4/fpm/Dockerfile)|-|
-|MySQL|[mysql:5.7](https://github.com/docker-library/mysql/blob/0590e4efd2b31ec794383f084d419dea9bc752c4/5.7/Dockerfile)|3306|
+|MySQL|[mysql:5.7](https://github.com/docker-library/mysql/blob/0590e4efd2b31ec794383f084d419dea9bc752c4/5.7/Dockerfile)|13306|
 
 
 ## Requiements
